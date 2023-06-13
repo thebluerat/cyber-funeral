@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+.layout {
+    display: flex;
+    height: 100vh;
+}
+.nav {
+    background-color: #FFF4F4;
+    flex: 1
+}
+.page {
+    background-color: #606C5D;
+    flex: 4
+}
