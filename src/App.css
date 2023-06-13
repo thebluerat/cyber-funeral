@@ -4,13 +4,15 @@
   margin: 0;
   padding: 0;
   text-decoration: none;
+  box-sizing: border-box;
 }
 .container {
   display: flex;
 }
 main {
   width: 100%;
-  padding: 20px;
+  padding: 50px;
+  height: 100vh;
 }
 .sidebar {
   background: #F7E6C4;
@@ -32,6 +34,8 @@ main {
   display: flex;
   font-size: 25px;
   margin-left: 50px;
+  transition: all 0.5s;
+  cursor: pointer;
 }
 .link {
   display: flex;
